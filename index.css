@@ -57,15 +57,22 @@ header li a{
 
 }
 
+header li a:hover{
+  color: #ffffff;
+}
+
 header a button{
   border-style: none;
   font-family: 'Montserrat', sans-serif;
   background-color: #ffffff;
   color: #000000;
   font-weight: bold;
-
-
 }
+
+header a button:hover{
+  opacity: 0.5;
+}
+
 button{
   padding: 6% 30%;
   border-radius: 18px;
@@ -83,3 +90,89 @@ button{
    margin-right: 1400px;
    margin-top: 28px;
  }
+ .toggle{
+   display: none;
+ }
+
+ .hidden{
+   display: none;
+
+ }
+
+/* responsive-part */
+
+@media (max-device-width: 420px) {
+  body{
+    background-image: none;
+    background-color: #afb8c8;
+  }
+  .mtxt{
+    margin-right: 10%;
+    font-size: 4rem;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .htxt{
+    font-size: 2rem;
+  }
+  .navbar{
+    display: none;
+  }
+  .toggle{
+    display: inline-block;
+    border: none;
+
+  }
+
+  button{
+    padding:  12px 50px;
+    border-radius: 18px;
+    margin: 65px 120px 0 0;
+    height: 100px;
+  }
+
+  button a{
+    color: #7F8AC5;
+  }
+
+  button:hover{
+    opacity: 0.7;
+  }
+
+  .nav2{
+    transition: 1s;
+  }
+
+  .nav2 nav{
+    background-color: #d3dff2 ;
+    padding: 20px 0 20px 0;
+
+
+  }
+
+  .nav2 ul{
+    list-style: none;
+
+  }
+
+  .nav2 li{
+    display: inline;
+    padding: 0 33px 0 33px;
+
+  }
+
+  .nav2 li a{
+    text-decoration: none;
+    color: #7F8AC5 ;
+    font-size: 25px;
+
+  }
+
+  .nav2 li a:hover{
+    color: #ffffff;
+  }
+
+
+
+
+}
