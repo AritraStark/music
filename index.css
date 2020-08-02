@@ -113,6 +113,7 @@ header a button:focus{
  .display{
    opacity: 0.99;
    transition: opacity 0.7s ease-in-out;
+   z-index: 5000!important;
  }
 
 /* chatbox */
@@ -239,6 +240,7 @@ header a button:focus{
   border: none;
   background-color: inherit;
   padding: 20px 100px 20px 65px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .txtin:focus{
@@ -251,13 +253,19 @@ header a button:focus{
   background-color: inherit;
   color: #7F8AC5;
   font-size: 1.2rem;
+  cursor: pointer;
 }
+
+.fsub:focus{
+  outline: none;
+}
+
 
 .bubcirc{
   padding: 10px;
   background-color: #0C003A;
   position: relative;
-  top: 50px;
+  top: 40px;
   left:20px;
   margin-right: 660px;
   border-radius: 10px;
@@ -272,10 +280,11 @@ header a button:focus{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding: 15px 0;
-  text-align: center;
+  padding: 15px 16px;
+  text-align: left;
   color: #ffffff;
   margin-bottom: 50px;
+  font-size: 0.8rem;
 }
 
 .bubble-bottom-left:before {
@@ -302,11 +311,12 @@ header a button:focus{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding: 15px 0;
-  text-align: center;
+  padding: 15px 16px;
+  text-align: left;
   color: #ffffff;
   margin-bottom: 50px;
   margin-top: 20px;
+  font-size: 0.8rem;
 }
 
 .bubble-bottom-left1:before {

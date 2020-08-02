@@ -28,25 +28,55 @@ startconv.addEventListener("click",function(){
     var b=document.querySelector(".chatcon");
     b.classList.add("display");
     b.classList.remove("hidden");
+    document.querySelector(".trig-on").src = "x-vec.png";
+
 
   }
   else{
     var b=document.querySelector(".chatcon");
     b.classList.remove("display");
     b.classList.add("hidden");
+    var d=document.querySelector(".chatcon2");
+    d.classList.remove("display");
+    d.classList.add("hidden");
+
+    document.querySelector(".trig-on").src = "Sparrow Bird.png";
+
   }
   j++;
 });
 
 //chatbot2
-var fsubm= document.querySelector(".startcon");
-fsubm.addEventListener("click",function(){
+var startconv2= document.querySelector(".startcon");
+startconv2.addEventListener("click",function(){
 
     var c=document.querySelector(".chatcon2");
     c.classList.add("display");
     c.classList.remove("hidden");
-    var d=document.querySelector(".chatcon");
-    d.classList.remove("display");
-    d.classList.add("hidden");
+    var b=document.querySelector(".chatcon");
+    b.classList.remove("display");
+    b.classList.add("hidden");
 
   });
+
+
+  var fsubm= document.querySelector(".fsub");
+  fsubm.addEventListener("click",function(){
+      var e = document.querySelector(".txtin").value;
+      document.querySelector(".bubble1").innerText = e;
+      var f=document.querySelector(".bubble1");
+      f.classList.add("display");
+      f.classList.remove("hidden");
+      setTimeout(function(){
+        var g=document.querySelector(".response");
+        g.classList.add("display");
+        g.classList.remove("hidden");
+      }, 1000);
+
+
+    });
+
+
+    fetch('https://api.adviceslip.com/advice')
+      .then(response => response.json())
+      .then(commits => document.querySelector(".bubble").innerText=commits.slip.advice);
