@@ -132,6 +132,7 @@ header a button:focus{
   border-bottom-left-radius: 50px;
   border-bottom-right-radius:0;
   cursor: pointer;
+  background-color: #ffffff;
 }
 
 .chaton:focus{
