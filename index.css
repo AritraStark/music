@@ -445,6 +445,92 @@ header a button:focus{
     color: #ffffff;
   }
 
+  .chaton{
+    margin-left: 900px;
+    width: 20%;
+    margin-bottom: 0;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 0;
+  }
+
+  .chatcon{
+    width:90%;
+    position: relative;
+    left: 0px;
+    font-size: 1.5rem;
+    z-index: -1000;
+    padding-top: 10px;
+    margin-left: 5%;
+  }
+
+
+  .chatcon2{
+    width:109%;
+    position: absolute;
+    left: 0px;
+    font-size: 2rem;
+    z-index: -500;
+    padding-top: 10px;
+    margin-left: 8%;
+    top:61%;
+    bottom: -13%;
+  }
+
+  .bubfoot {
+    font-size: 1.5rem;
+    padding-left: 21%;
+    padding-right: 31%;
+    padding-bottom: 1%;
+  }
+
+  .bubs img{
+    height: 5%;
+    width: 5%;
+  }
+
+
+  .bubfoot h4{
+    padding-top: 0;
+  }
+
+  .txtin{
+    font-size: 1.8rem;
+    padding: 2% 30% 2% 15%;
+  }
+
+
+  .fsub{
+    font-size: 3.5rem;
+  }
+
+
+  .bubble, .bubble1{
+    font-size: 2rem;
+  }
+
+
+  .bubcirc{
+    margin-right: 100%;
+
+  }
+
+  .c-1-1{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+
+  .bubs{
+    padding: 2% 3%;
+  }
+
+
+  .startcon{
+    font-size: 2rem;
+  }
+
 
 
 
