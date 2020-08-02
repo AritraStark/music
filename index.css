@@ -456,9 +456,9 @@ header a button:focus{
   }
 
   .chaton{
-    margin-left: 900px;
+    margin-left: -12%;
     width: 20%;
-    margin-bottom: 0;
+    margin-bottom: 7%;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
