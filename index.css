@@ -456,6 +456,7 @@ header a button:focus{
   }
 
   .chaton{
+    position:relative!important;
     margin-left: -12%;
     width: 20%;
     margin-bottom: 7%;
@@ -484,7 +485,7 @@ header a button:focus{
     position: relative;
     left: 0px;
     font-size: 2rem;
-
+    margin-top: 7%;
     padding-top: 10px;
     margin-left: 2%;
 
