@@ -422,6 +422,7 @@ header a button:focus{
   .nav2 ul{
     list-style: none;
     align-items: center;
+    text-align: center;
     padding-left: 90px;
     padding-right: 10px;
 
@@ -456,26 +457,27 @@ header a button:focus{
   }
 
   .chatcon{
-    width:90%;
-    position: relative;
+    width: 113%;
+    position: absolute;
     left: 0px;
     font-size: 1.5rem;
     z-index: -1000;
     padding-top: 10px;
     margin-left: 5%;
+    top: 65%;
+    bottom: -2%;
   }
 
 
   .chatcon2{
-    width:109%;
-    position: absolute;
+    width: 95%;
+    position: relative;
     left: 0px;
     font-size: 2rem;
-    z-index: -500;
+
     padding-top: 10px;
-    margin-left: 8%;
-    top:61%;
-    bottom: -13%;
+    margin-left: 2%;
+
   }
 
   .bubfoot {
